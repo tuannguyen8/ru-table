@@ -3,6 +3,13 @@
     color: black;
     font-weight: 700;
     font-size: 15px;
-    margin: 10px;
-    border: none;
+    padding: 10px;
+    // border: none;
+    // border: 1px solid black;
 }
+.full-border{
+  border-left: 1px solid black;
+}
+// .right-border{
+//   border-right: 1px solid black;
+// }

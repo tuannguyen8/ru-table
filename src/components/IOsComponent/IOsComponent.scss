@@ -1,0 +1,17 @@
+.ios-class{
+    height: 90%;
+    width: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p{
+        font-weight: 700;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+}

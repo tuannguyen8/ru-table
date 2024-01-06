@@ -5,9 +5,9 @@ import './TitleRow.scss';
 
 const TitleRow = () => {
 	return (
-		<Row className="rows title-row">
+		<Row className="rows title-row full-border">
 			<div className="ru-title">
-				<span>TAP IN DB-VIEW</span>
+				<p>TAP-IN DB VIEW</p>
 			</div>
 		</Row>
 	);

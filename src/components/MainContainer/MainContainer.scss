@@ -1,6 +1,32 @@
-// .rows{
-//   border: 1px solid blue;
-// }
-// .columns{
-//   border: 1px solid black;
-// }
+.full-border{
+  border: 1px solid black;
+}
+.top-border{
+  border-top: 1px solid black;
+}
+.bottom-border{
+  border-bottom: 1px solid black;
+}
+.left-border{
+  border-left: 1px solid black;
+}
+.right-border{
+  border-right: 1px solid black;
+}
+.left-side{
+    .misc-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+    // .full-border{
+    //     border: 1px solid black;
+    // }
+}
+.right-side{
+  position: relative;
+}

@@ -1,10 +1,14 @@
 .title-row{
     background-color: #395A7F;
     .ru-title{
-        text-align: center;
-        color: white;
-        font-weight: 700;
-        font-size: 15px;
-        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        p{
+            margin: auto;
+            color: white;
+            font-weight: 700;
+        }
     }
 }

@@ -5,9 +5,19 @@
     background-color: yellow;
 }
 .product-columns{
-    text-align: center;
+    text-align: center; 
+}
+.unmask-box{
+    cursor: pointer;
     
 }
-.diode-box, .unmask-box{
+.diode-box{
     cursor: pointer;
+       
+}
+.left-diode{
+    background-color: red; 
+}
+.products{
+    font-weight: 700;
 }
