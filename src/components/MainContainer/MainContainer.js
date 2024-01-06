@@ -14,9 +14,9 @@ const MainContainer = () => {
 
 	// To generate a random RGBA color
 	const getRandomColor = () => {
-		const r = Math.floor(Math.random() * 256);
-		const g = Math.floor(Math.random() * 256);
-		const b = Math.floor(Math.random() * 256);
+		let r = Math.floor(Math.random() * 256);
+		let g = Math.floor(Math.random() * 256);
+		let b = Math.floor(Math.random() * 256);
 		return `rgba(${r}, ${g}, ${b}, 0.7)`;
 	};
 
@@ -150,11 +150,11 @@ const MainContainer = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const response = await fetch('/dataset.json');
-				const data = await response.json();
+				let response = await fetch('/dataset.json');
+				let data = await response.json();
 
 				// Create an array of repeated products based on the 'repeat' property
-				const flatArray = data.reduce((acc, item) => {
+				let flatArray = data.reduce((acc, item) => {
 					const productArray = [];
 
 					for (let i = 0; i < item.repeat; i++) {
