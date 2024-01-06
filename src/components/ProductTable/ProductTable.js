@@ -2,6 +2,7 @@ import React from 'react';
 import './ProductTable.scss';
 import LeftSidePart from '../LeftSidePart/LeftSidePart';
 import RightSidePart from '../RightSidePart/RightSidePart';
+import { v4 as uuidv4 } from 'uuid';
 
 const ProductTable = (props) => {
 	const renderRows = () => {
@@ -14,6 +15,7 @@ const ProductTable = (props) => {
 						let productBackgroundColor = item.background;
 						rows.push(
 							<LeftSidePart
+								key={uuidv4()}
 								productBackgroundColor={productBackgroundColor}
 								i={i}
 								item={item}
@@ -27,14 +29,13 @@ const ProductTable = (props) => {
 
 				break;
 			case '2':
-				
 				for (let i = 40; i < 60; i++) {
 					let item = props.dataSet[i];
 					if (item) {
 						let productBackgroundColor = item.background;
 						rows.push(
-
 							<RightSidePart
+								key={uuidv4()}
 								productBackgroundColor={productBackgroundColor}
 								i={i}
 								item={item}
@@ -54,6 +55,7 @@ const ProductTable = (props) => {
 						let productBackgroundColor = item.background;
 						rows.push(
 							<LeftSidePart
+								key={uuidv4()}
 								productBackgroundColor={productBackgroundColor}
 								i={i}
 								item={item}
@@ -73,6 +75,7 @@ const ProductTable = (props) => {
 						let productBackgroundColor = item.background;
 						rows.push(
 							<RightSidePart
+								key={uuidv4()}
 								productBackgroundColor={productBackgroundColor}
 								i={i}
 								item={item}
@@ -80,7 +83,6 @@ const ProductTable = (props) => {
 								handleDiodeBoxClick={props.handleDiodeBoxClick}
 								handleMaskBoxClick={props.handleMaskBoxClick}
 							></RightSidePart>
-
 						);
 					}
 				}
