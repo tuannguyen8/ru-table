@@ -4,39 +4,6 @@ import './HeaderRow.scss';
 
 const HeaderRow = () => {
 	return (
-		// <Row className="rows header-row bottom-border">
-		// 	<Col xs={1} className="rows col-parent left-border right-border">
-		// 		<Row className="rows row-parent">
-		// 			<Col xs={6} className="columns header-text right-border">Grid</Col>
-		// 			<Col xs ={6} className="columns header-text">Diode</Col>
-		// 		</Row>
-		// 	</Col>
-		// 	<Col xs={1} className="rows col-parent right-border">
-		// 		<Row className="rows row-parent">
-		// 			<Col xs={6} className="columns header-text right-border">Unmask</Col>
-		// 			<Col xs={6} className="columns header-text">RU#</Col>
-		// 		</Row>
-		// 	</Col>
-
-		// 	<Col className="rows uuid-text">
-		//         <p>
-		//             Seat UUID
-		//         </p>
-		//     </Col>
-
-		// 	<Col xs={1} className="rows col-parent left-border right-border">
-		// 		<Row className="rows row-parent">
-		// 			<Col xs={6} className="columns header-text right-border">RU#</Col>
-		// 			<Col xs ={6} className="columns header-text">Unmask</Col>
-		// 		</Row>
-		// 	</Col>
-		// 	<Col xs={1} className="rows col-parent right-border">
-		// 		<Row className="rows row-parent">
-		// 			<Col xs={6} className="columns header-text right-border">Diode</Col>
-		// 			<Col xs={6} className="columns header-text">Grid</Col>
-		// 		</Row>
-		// 	</Col>
-		// </Row>
 		<Row className="header-row top-border left-border right-border bottom-border">
 			<Col className=" header-cols right-border">
 				<div className="letter-style">Grid</div>
