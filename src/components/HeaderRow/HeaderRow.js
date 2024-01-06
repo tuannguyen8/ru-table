@@ -4,7 +4,7 @@ import './HeaderRow.scss';
 
 const HeaderRow = () => {
 	return (
-		<Row className="header-row top-border left-border right-border bottom-border">
+		<Row className="header-row left-border right-border">
 			<Col className=" header-cols right-border">
 				<div className="letter-style">Grid</div>
 			</Col>

@@ -4,12 +4,12 @@ import './MiscBlock.scss';
 
 const MiscBlock = () => {
 	return (
-		<Row className="misc-block top-border">
+		<Row className="misc-block">
 			<Col className="fake-cols"></Col>
-			<Col xs={11} className="columns top-border">
-				<Row>
+			<Col xs={11} className="columns">
+				<Row >
 					<Col></Col>
-					<Col xs={9} className=" misc-center">
+					<Col xs={9} className="bottom-border right-border left-border misc-center">
 						<div>MISC Block</div>
 					</Col>
 					<Col></Col>

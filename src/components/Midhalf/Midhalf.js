@@ -4,7 +4,7 @@ import './Midhalf.scss';
 
 const Midhalf = () => {
 	return (
-		<Row className="rows midhalf left-border full-border">
+		<Row className="rows midhalf left-border right-border">
             <div className="ru-title">
 				<span>MIDHALF</span>
 			</div>

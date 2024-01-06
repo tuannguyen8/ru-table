@@ -3,11 +3,17 @@
     text-align: center;
     color: white;
     font-weight: 900;
-    background-color: black;
-    border-bottom: 3px solid black;
+    //background-color: black;
 }
-// .product-cols{
-//     background-color: red;
-// }
-
-
+.grid-first-background{
+    background-color: black;
+}
+.grid-second-background{
+    background-color: rgb(94, 204, 94);
+}
+.grid-third-background{
+    background-color: rgb(6, 92, 6);
+}
+.grid-fourth-background{
+    background-color: rgb(87, 166, 235);
+}
