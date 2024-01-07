@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# RU Table Project - Intel JR0252380
+Create a JavaScript Application in a popular framework (React/Vue/Angular) that takes a JSON dataset containing product names and their repetition count. Generate a floor plan (RU Table) based on the given constraints. 
+
+## Installation
+To install and run the project, follow these steps:
+
+1. Create a clone of the repository. Run `git clone https://github.com/tuannguyen8/ru-table.git` to clone the project.
+2. Set up dependencies. Navigate to the ru-tables directory. Run `npm install`.
+3. To run the project. Navigate to the ru-tables directory. Run `npm start`.
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

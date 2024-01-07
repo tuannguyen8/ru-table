@@ -7,7 +7,11 @@ const RightSidePart = (props) => {
 	return (
 		<>
 			<Row key={uuidv4()} className="rows product-rows bottom-border">
+				
+				{/* Offset column*/}
 				<Col xs={1} className="columns product-columns"></Col>
+
+				{/* Column for the product name with a background color */}
 				<Col
 					xs={8}
 					style={{ backgroundColor: props.productBackgroundColor }}
@@ -15,12 +19,16 @@ const RightSidePart = (props) => {
 				>
 					{props.item.product}
 				</Col>
+
+				{/* Column for the "ru" box */}
 				<Col
 					xs={1}
 					className="columns product-columns ru-box right-border"
 				>
 					{props.i}
 				</Col>
+
+				{/* Column for the unmask box */}
 				<Col
 					value={props.item.product}
 					onClick={() => props.handleMaskBoxClick(props.item.product)}
@@ -29,6 +37,8 @@ const RightSidePart = (props) => {
 						props.item.unmask ? 'yellow-background' : ''
 					}`}
 				></Col>
+
+				{/* Column for the diode box */}
 				<Col
 					data-key={props.item.id}
 					onClick={() => props.handleDiodeBoxClick(props.item.id)}
