@@ -9,7 +9,7 @@ const GridForm = (props) => {
 			<Col xs={6} className="columns">
 				<Row itemID="" className="rows">
 					<Col xs={1} className={`columns grid-cols left-border bottom-border ${
-						props.prop1 == 1 ? 'grid-first-background' : 'grid-third-background'
+						props.prop1 === '1' ? 'grid-first-background' : 'grid-third-background'
 					} `}>
 						{props.prop1}
 					</Col>
@@ -34,7 +34,7 @@ const GridForm = (props) => {
 						></ProductTable>
 					</Col>
 					<Col xs={1} className={`columns right-border bottom-border grid-cols ${
-						props.prop1 == 1 ? 'grid-second-background' : 'grid-fourth-background'
+						props.prop2 === '2' ? 'grid-second-background' : 'grid-fourth-background'
 					} `}>
 						{props.prop2}
 					</Col>

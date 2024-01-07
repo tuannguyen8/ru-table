@@ -41,7 +41,9 @@ const HeaderRow = () => {
 					</Col>
 				</Row>
 			</Col>
-			<Col className="letter-style left-border">Grid</Col>
+			<Col className="header-cols left-border">
+				<div className="letter-style">Grid</div>
+			</Col>
 		</Row>
 	);
 };
