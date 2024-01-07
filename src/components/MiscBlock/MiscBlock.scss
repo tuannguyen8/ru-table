@@ -1,5 +1,12 @@
 .fake-cols{
     height: 100%;
     width: 100%;
-    background-color: yellow;
+}
+.misc-center-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        font-weight: 700;
+    }
 }
