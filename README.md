@@ -8,6 +8,8 @@ To install and run the project, follow these steps:
 2. Set up dependencies. Navigate to the ru-tables directory. Run `npm install`.
 3. To run the project. Navigate to the ru-tables directory. Run `npm start`.
 
+Deployment link: https://tuannguyen8.github.io/ru-table/
+
 
 
 

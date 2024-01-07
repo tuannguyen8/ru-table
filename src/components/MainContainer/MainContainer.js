@@ -258,7 +258,6 @@ const MainContainer = () => {
 		const fetchData = async () => {
 			try {
 				// Fetch data from the '/dataset.json' endpoin
-				//let response = await fetch('/dataset.json');
 				let response = await fetch('/ru-table/dataset.json');
 
 				// Parse the JSON response
