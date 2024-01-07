@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import './GridForm.scss';
 import ProductTable from '../ProductTable/ProductTable';
 
-{/* Each GridForm component have 2 ProductTable component */}
+/* Each GridForm component have 2 ProductTable component */
 const GridForm = (props) => {
 	return (
 		<Row className="rows top-border">
@@ -33,7 +33,7 @@ const GridForm = (props) => {
 			<Col xs={6} className="columns">
 				<Row itemID="" className="rows">
 					<Col xs={11} className="columns">
-						
+
 						{/* Second ProductTable component */}
 						<ProductTable
 							itemID={props.prop2}
