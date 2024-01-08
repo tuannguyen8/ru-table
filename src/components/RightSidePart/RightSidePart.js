@@ -32,18 +32,13 @@ const RightSidePart = (props) => {
 					<Col xs={1} className="columns product-columns"></Col>
 
 					{/* Column for the product name with a background color */}
-					{/* <Col
-					xs={8}
-					style={{ backgroundColor: props.productBackgroundColor }}
-					className="columns product-columns products left-border right-border"
-				> */}
 					<Col
 						lg={8}
 						xs={9}
 						style={{ backgroundColor: props.productBackgroundColor }}
-						className="columns product-columns products left-border right-border"
+						className="columns product-columns products left-border right-border ru-number-columns"
 					>
-						{props.item.product}
+						<div className="ru-number-cell">{props.i}</div>
 					</Col>
 
 					{/* Column for the "ru" box */}
@@ -97,16 +92,13 @@ const RightSidePart = (props) => {
 					></Col>
 
 					{/* Column for the "ru" box */}
-					<Col xs={1} className="columns product-columns ru-box right-border ">
+					<Col xs={1} className="columns product-columns ru-box right-border ru-number-columns ">
+						<div className='ru-number-cell'>
 						{props.i}
+					</div>
 					</Col>
 
 					{/* Column for the product name with a background color */}
-					{/* <Col
-					xs={8}
-					style={{ backgroundColor: props.productBackgroundColor }}
-					className="columns product-columns products right-border"
-				> */}
 					<Col
 						xs={9}
 						lg={8}

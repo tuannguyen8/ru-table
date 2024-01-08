@@ -84,7 +84,7 @@ const GridForm = (props) => {
 						<Row itemID="" className="rows">
 							<Col
 								xs={1}
-								className={`columns grid-cols left-border bottom-border ${
+								className={`columns grid-cols full-border left-border bottom-border ${
 									props.prop1 === '1'
 										? 'grid-first-background'
 										: 'grid-third-background'
@@ -110,7 +110,7 @@ const GridForm = (props) => {
 						<Row itemID="" className="rows">
 							<Col
 								xs={1}
-								className={`columns right-border bottom-border grid-cols ${
+								className={`columns left-border right-border bottom-border grid-cols ${
 									props.prop2 === '2'
 										? 'grid-second-background'
 										: 'grid-fourth-background'

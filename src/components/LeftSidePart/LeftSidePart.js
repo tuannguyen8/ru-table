@@ -31,17 +31,15 @@ const LeftSidePart = (props) => {
 				{/* Column for the "ru" box */}
 				<Col
 					xs={1}
-					className="columns product-columns ru-box right-border "
+					className="columns product-columns ru-box right-border ru-number-columns"
 				>
-					{props.i}
+					<div className='ru-number-cell'>
+						{props.i}
+					</div>
+					
 				</Col>
 
 				{/* Column for the product name with a background color */}
-				{/* <Col
-					xs={8}
-					style={{ backgroundColor: props.productBackgroundColor }}
-					className="columns product-columns products right-border"
-				> */}
 				<Col
 					xs={9}
 					lg={8}
